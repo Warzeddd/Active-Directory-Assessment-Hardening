@@ -1,20 +1,13 @@
-# Exclure les fichiers de configuration et d'accès critiques
 *.conf
 vpn_root-me.pro.conf
-
-# Exclure les logs bruts, notes locales et scans nmap contenant des données sensibles
 *.txt
 *.nmap
 /preuves/
 *.png
-
-# Exclure les livrables binaires lourds (Générés localement, non requis sur un repo de code)
 *.zip
 *.pdf
 *.docx
 *.pptx
 HOELLARD_CALIX_1_rapport_pentest_072026/
-
-# Métadonnées OS
 .DS_Store
 Thumbs.db
